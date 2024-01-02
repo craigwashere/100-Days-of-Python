@@ -24,3 +24,5 @@ Day 31:		Day 31 is a language learning app to learn vocabulary in a foreign lang
 day 34:		Day 34 concludes the quiz program, but marks the first time using Python requests to retrieve data from a URL. While the application is a trivia game, it does demonstrate higher level software ideas including classes. Again, UI is handled through tkinter and mostly contained in the UI class.
 
 day 35:		This app requests weather information from an online source and uses an email API to send and email to me regarding the weather. I hadn't setup an email client at the time of completing this.
+
+day 38:		Day 38 is an exercise tracker that uses nutritionix and sheety APIs. The Nutritionix API gets calorie count. Sheety API updates Google Sheets.
