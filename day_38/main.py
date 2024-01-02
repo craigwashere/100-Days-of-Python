@@ -1,8 +1,8 @@
 import requests
 import datetime
 
-NUTRITIONIX_APP_ID = "fd13490f"
-NUTRITIONIX_API_KEY = "b862c0499c2ee7bb8b456e16348370c4"
+NUTRITIONIX_APP_ID = ""
+NUTRITIONIX_API_KEY = ""
 NUTRITIONIX_EXERCISE_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
 
 
@@ -23,9 +23,9 @@ nutritionix_response = requests.post(url=NUTRITIONIX_EXERCISE_ENDPOINT, json=nut
 nutritionix_response.raise_for_status()
 datetime_now = datetime.datetime.now()
 
-SHEETY_URL = 'https://api.sheety.co/8aeb69ad558f23c7dfffc58f827a8e5d/workoutTracking/workouts'
+SHEETY_URL = ''
 sheety_header = {
-    "Authorization": "Basic Y3JhaWc6cGFzc3dvcmQ="
+    "Authorization": ""
 }
 
 for exercise in nutritionix_response.json()['exercises']:
