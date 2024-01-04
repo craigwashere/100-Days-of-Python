@@ -26,3 +26,7 @@ day 34:		Day 34 concludes the quiz program, but marks the first time using Pytho
 day 35:		This app requests weather information from an online source and uses an email API to send and email to me regarding the weather. I hadn't setup an email client at the time of completing this.
 
 day 38:		Day 38 is an exercise tracker that uses nutritionix and sheety APIs. The Nutritionix API gets calorie count. Sheety API updates Google Sheets.
+
+Day 44:		introduction to web page development, building a static web page in HTML and CSS.
+
+Day 45:		uses beautifulSoup to scrape data from a webpage and write the results in a file. This script gets the 'top 100 must watch movies' from an archived version of empireonline.com
