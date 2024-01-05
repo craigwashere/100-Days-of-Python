@@ -153,3 +153,5 @@ cython_debug/
 *.DS_Store
 
 *.bak
+*.txt
+day_45/README.md

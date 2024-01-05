@@ -30,3 +30,5 @@ day 38:		Day 38 is an exercise tracker that uses nutritionix and sheety APIs. Th
 Day 44:		introduction to web page development, building a static web page in HTML and CSS.
 
 Day 45:		uses beautifulSoup to scrape data from a webpage and write the results in a file. This script gets the 'top 100 must watch movies' from an archived version of empireonline.com
+
+Day 46:		script that prompts for a year then uses BeautifulSoup to query to get the top songs from billboard.com. Once the top songs are obtained, we use spotipy to connect to spotify to load a playlist.
