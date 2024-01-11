@@ -32,3 +32,5 @@ Day 44:		introduction to web page development, building a static web page in HTM
 Day 45:		uses beautifulSoup to scrape data from a webpage and write the results in a file. This script gets the 'top 100 must watch movies' from an archived version of empireonline.com
 
 Day 46:		script that prompts for a year then uses BeautifulSoup to query to get the top songs from billboard.com. Once the top songs are obtained, we use spotipy to connect to spotify to load a playlist.
+
+Day 47:		simple script to check a price on InstantPot and send an email when the price drops below a certain value. It uses beautifulSoup to scrape the price and python's builtin smtplib library to send the email. I believe the idea was to have this run remotely and periodically until an email is received.
