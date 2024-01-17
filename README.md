@@ -36,3 +36,5 @@ Day 46:		script that prompts for a year then uses BeautifulSoup to query to get 
 Day 47:		simple script to check a price on InstantPot and send an email when the price drops below a certain value. It uses beautifulSoup to scrape the price and python's builtin smtplib library to send the email. I believe the idea was to have this run remotely and periodically until an email is received.
 
 Day 48:		this marks the beginning of web-based automation. Using selenium main.py gets upcoming events from python.org, interaction.py enters dummy values in a mock website created by the instructor. Selenium2.py is an inherited version of Selenium I used for the cookie automation that plays the cookie game on a website.
+
+Day 49:		script to automatically apply for a job through linkedIn.com using selenium (in this case the inherited Selenium2 I created to handle some of the leg work).  Inside the Selenium2, as before, we make use of the geckodriver to run the we browser of choice (firefox).
