@@ -38,3 +38,11 @@ Day 47:		simple script to check a price on InstantPot and send an email when the
 Day 48:		this marks the beginning of web-based automation. Using selenium main.py gets upcoming events from python.org, interaction.py enters dummy values in a mock website created by the instructor. Selenium2.py is an inherited version of Selenium I used for the cookie automation that plays the cookie game on a website.
 
 Day 49:		script to automatically apply for a job through linkedIn.com using selenium (in this case the inherited Selenium2 I created to handle some of the leg work).  Inside the Selenium2, as before, we make use of the geckodriver to run the we browser of choice (firefox).
+
+Day 50:		requires tinder and facebook, I subscribed to neither and don't want to bother.
+
+Day 51:		automates a internet speed test through speedtest.net and posts the results on twitter. I don't have twitter and won't bother. Makes use of Selenium2.
+
+Day 52:		required instagram, again, not going to bother.
+
+Day 53:		scrapes data from zillow.com and puts it into a premade Google form. (form has since been deleted). We scrape adress, price, and URL from zillow. Again, most projects using the inherited Selenium2
