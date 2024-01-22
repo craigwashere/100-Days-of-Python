@@ -46,3 +46,11 @@ Day 51:		automates a internet speed test through speedtest.net and posts the res
 Day 52:		required instagram, again, not going to bother.
 
 Day 53:		scrapes data from zillow.com and puts it into a premade Google form. (form has since been deleted). We scrape adress, price, and URL from zillow. Again, most projects using the inherited Selenium2
+
+Day 54:		intro to web development with Flask. 
+
+Day 55:		continutation of web development with backend development with a number guessing game.
+
+Day 56:		starts with template web development in Flask, this is a resume web page.
+
+Day 57:		further expands on template development using Jinja by building a blog page.
