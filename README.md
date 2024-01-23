@@ -54,3 +54,10 @@ Day 55:		continutation of web development with backend development with a number
 Day 56:		starts with template web development in Flask, this is a resume web page.
 
 Day 57:		further expands on template development using Jinja by building a blog page.
+Day 58:		crash course in HTML and css writing a fictional "tindog" web page. 
+
+Day 59:		blog webpage with templates with Flask/Jinja. 
+
+Day 60:		login for the blog page using forms. 
+
+Day 61:		login form example with validation, displays separate pages for successful vs. unsuccessful login.
