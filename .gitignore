@@ -161,3 +161,6 @@ day_53/test.json
 day_61/poetry.lock
 day_61/pyproject.toml
 day_62/cafe-data.csv
+*.lock
+*.toml
+*.py2

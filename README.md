@@ -63,3 +63,5 @@ Day 60:		login for the blog page using forms.
 Day 61:		login form example with validation, displays separate pages for successful vs. unsuccessful login.
 
 Day 62:		a cafe blog type web  application that lists cafes and their rating with respect to power connections. it uses Flask, WTForms, and Jinja. It also writes the cafes to a .csv file for retrieval on next opening.
+
+Day 63:		book cataloging web page to add books with rating. User can edit rating, but not the book entries. User can add/delete books. No .css styling. Book entries are added to a SQLite database. Again uses jinja forms for page population.

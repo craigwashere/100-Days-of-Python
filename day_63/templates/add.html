@@ -1,0 +1,17 @@
+{% extends 'bootstrap/base.html' %}
+{% block title %}Add Book{% endblock %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+    {% block styles %}
+        {{super()}}
+        <style>
+        label {padding: .5rem;}
+        .form {width: 100%; display: flex;}
+        .form-control {width: auto;}
+        .form-group {display: flex;margin: 15px 25px;}
+        .btn-default {height: fit-content; margin: 15px;}
+        </style>
+    {% endblock %}
+    {{wtf.quick_form(form, novalidate=True)}}
+
+{% endblock %}
