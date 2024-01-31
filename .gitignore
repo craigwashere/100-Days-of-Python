@@ -157,10 +157,12 @@ cython_debug/
 day_45/README.md
 day_53/test.json
 
-*/static/*
 day_61/poetry.lock
 day_61/pyproject.toml
 day_62/cafe-data.csv
 *.lock
 *.toml
 *.py2
+*/static/assets/*
+day_59/static/css/styles.css
+day_59/static/js/scripts.js

@@ -65,3 +65,6 @@ Day 61:		login form example with validation, displays separate pages for success
 Day 62:		a cafe blog type web  application that lists cafes and their rating with respect to power connections. it uses Flask, WTForms, and Jinja. It also writes the cafes to a .csv file for retrieval on next opening.
 
 Day 63:		book cataloging web page to add books with rating. User can edit rating, but not the book entries. User can add/delete books. No .css styling. Book entries are added to a SQLite database. Again uses jinja forms for page population.
+
+Day 64:		blog for Top 10 Movies. Backend uses SQLAlchemy to communicate to a SQLite database to store the movies and ratings. The front end uses WTForms, Flask, Jinja templates, and bootstrap. One of the bootstrap components is the carousel to display movie poster of selected movies and ratings. Also uses the tmdb API to get the  URL for the movie poster and other data.
+
