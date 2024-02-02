@@ -17,15 +17,15 @@ Day 24:		This is a template letter generator using one file for the names and an
 
 Day 28:		This is a windowed application for work/break scheduling. It uses tkinter for the window API and displays a tomato for some reason.
 
-Day 29:		Day 29 is a password generator with a tkinter GUI and saves with corresponding website and email address in a text file. Probably not the best way to store passwords, but for learning a Python GUI, fairly functional.
+Day 29:		password generator with a tkinter GUI and saves with corresponding website and email address in a text file. Probably not the best way to store passwords, but for learning a Python GUI, fairly functional.
 
-Day 31:		Day 31 is a language learning app to learn vocabulary in a foreign language, French in this case. The words to learn are read from a .csv file using Pandas and displayed with tkinter GUI. The basic idea is to provide feedback as to which words were remembered correctly, the ones remembered correctly are removed from the master list and stored in a separate file when the app closes. When the app reopens, it looks for the words to learn file, if not found, loads the default list. Got some neat images for correct/incorrect.
+Day 31:		language learning app to learn vocabulary in a foreign language, French in this case. The words to learn are read from a .csv file using Pandas and displayed with tkinter GUI. The basic idea is to provide feedback as to which words were remembered correctly, the ones remembered correctly are removed from the master list and stored in a separate file when the app closes. When the app reopens, it looks for the words to learn file, if not found, loads the default list. Got some neat images for correct/incorrect.
 
-day 34:		Day 34 concludes the quiz program, but marks the first time using Python requests to retrieve data from a URL. While the application is a trivia game, it does demonstrate higher level software ideas including classes. Again, UI is handled through tkinter and mostly contained in the UI class.
+day 34:		concludes the quiz program, but marks the first time using Python requests to retrieve data from a URL. While the application is a trivia game, it does demonstrate higher level software ideas including classes. Again, UI is handled through tkinter and mostly contained in the UI class.
 
 day 35:		This app requests weather information from an online source and uses an email API to send and email to me regarding the weather. I hadn't setup an email client at the time of completing this.
 
-day 38:		Day 38 is an exercise tracker that uses nutritionix and sheety APIs. The Nutritionix API gets calorie count. Sheety API updates Google Sheets.
+day 38:		exercise tracker that uses nutritionix and sheety APIs. The Nutritionix API gets calorie count. Sheety API updates Google Sheets.
 
 Day 44:		introduction to web page development, building a static web page in HTML and CSS.
 
@@ -54,6 +54,7 @@ Day 55:		continutation of web development with backend development with a number
 Day 56:		starts with template web development in Flask, this is a resume web page.
 
 Day 57:		further expands on template development using Jinja by building a blog page.
+
 Day 58:		crash course in HTML and css writing a fictional "tindog" web page. 
 
 Day 59:		blog webpage with templates with Flask/Jinja. 
@@ -67,4 +68,6 @@ Day 62:		a cafe blog type web  application that lists cafes and their rating wit
 Day 63:		book cataloging web page to add books with rating. User can edit rating, but not the book entries. User can add/delete books. No .css styling. Book entries are added to a SQLite database. Again uses jinja forms for page population.
 
 Day 64:		blog for Top 10 Movies. Backend uses SQLAlchemy to communicate to a SQLite database to store the movies and ratings. The front end uses WTForms, Flask, Jinja templates, and bootstrap. One of the bootstrap components is the carousel to display movie poster of selected movies and ratings. Also uses the tmdb API to get the  URL for the movie poster and other data.
+
+Day 65:		cafe blog, but in API form. The only html template simply shows a welcome page, however, we have end points for updating coffee prices, deleting a cafe, adding a cafe, searching for a cafe, fetching all the cafes, and fetching a random cafe. Data returned is .json and includes several fields.
 
