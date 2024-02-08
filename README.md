@@ -73,3 +73,4 @@ Day 65:		cafe blog, but in API form. The only html template simply shows a welco
 
 Day 66:     blog server to display, add, edit, delete blogs. A lot of the front end was already created in terms of .css and javascript. Nevertheless, this project uses flask, wtforms, sqlalchemy, and ckeditor. We CRUD the sqlite database through sqlalchemy. The front end has a text editor field through CKEditor. Routes through the Python main file render templates with WTForms.
 
+Day 68      simple application to utilize Flask authorization. Registered users are kept in a sqlite database, templates are rendered with default .css and wtforms.
