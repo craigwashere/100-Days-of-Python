@@ -77,3 +77,5 @@ Day 68      simple application to utilize Flask authorization. Registered users 
 
 
 Day 69:		culmination of 4 'days' of learning. The final website has several routes, user login validation and adminstration mode. Users can add posts and comment on other blogs. Again, utilizing WTForms, jinja, bootstrap, SQLAlchemy, and SQLite.
+
+Day 72:		beginning data science section investigating salaries based on college majors and simple plots with Pandas and MatPlotLib
