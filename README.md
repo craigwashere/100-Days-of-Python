@@ -78,4 +78,30 @@ Day 68      simple application to utilize Flask authorization. Registered users 
 
 Day 69:		culmination of 4 'days' of learning. The final website has several routes, user login validation and adminstration mode. Users can add posts and comment on other blogs. Again, utilizing WTForms, jinja, bootstrap, SQLAlchemy, and SQLite.
 
-Day 72:		beginning data science section investigating salaries based on college majors and simple plots with Pandas and MatPlotLib
+/*-----------------This is the data science used on Google colab that I didn't enjoy at all-----------------*/
+Day 73:		beginning data science section investigating salaries based on college majors and simple plots with Pandas and MatPlotLib
+
+day 74:		Today we'll dive deep into a dataset all about LEGO. From the dataset we can ask whole bunch of interesting questions about the history of the LEGO company, their product offering, and which LEGO set ultimately rules them all.
+
+day 75:		This notebook explores if search popularity relates to other kinds of data. Perhaps there are patterns in Google's search volume and the price of Bitcoin or a hot stock like Tesla.
+
+Day 76:		In this notebook, we will do a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store.
+
+Day 77:		In this notebook we'll learn how to use NumPy to work with numerical data.
+
+Day 78:		This notebook investigates if there's a relationship using the movie budgets and financial performance data that scraped from the-numbers.com on May 1st, 2018.
+
+Day 79:		This notebook looks for patterns in past Nobel laureates. We start off making standard bar charts, move on to stacked bar charts. Then we'll make a scatter plot with a rolling average lineplot overlay. Afterwards, we'll make horizontal barcharts, a choropleth showing prize winners by country using a map of the world. Then, we'll create stacked horizontal bar charts, followed by a sunburst chart. Finally, we create a regplot with a regression line and a boxplot.
+
+Day 80:		This notebook examines data related to why so many women in maternity wards were dying from childbed fever (i.e. puerperal fever). We'll make several line plots followed by a boxplot and a histogram. We use Kernel Density Estimate (KDE) to visualise a smoot distribution. Finally, we use a t-test to determine if the differences in the means are statistically significant or purely due to chance. The p-value came out extremely small, therefore we can be certain that handwashing has made a difference to the average monthly death rate. 
+
+Day 81:		Capstone project: building a model that can provide a price estimate based on a home's characteristics. We start off creating several bar charts with a Kernel Density Estimate overlay. We then run Seaborn's pairplot in attempt to visualise all the relationships at the same time. Then, we make several joinplots which is a scatterplot with bar graphs on the top and right side to look for correlations between distance from employment and NOX pollution, INDUS (the proportion of non-retail industry i.e., factories) with NOX (Nitric Oxide Pollution), proportion of lower-income population with RM (number of rooms), and proportion of lower-income population with price. We then get into multivariable regression models and draw some scatter plots. We then look at the residuals to verify they're random by using skew/mean and creating histogram with kernel Density Estimate overlay. finally, we predict a few house prices using the regression models.
+
+/*----------------- This is the "Professional Portfolio" section where the prompts are self-graded -----------------*/
+
+/*----------------- I don't know if any of these are correct, I got answers and drew some plots -----------------*/
+day 98:		Use space mission data from 1957 onwards to analyse and visualise trends over time.
+
+Day 99:		Extract insights from combining US census data and the Washington Post's database on deaths by police in the United States.
+
+Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we'll use regression models to try to predict salaries.
