@@ -107,3 +107,5 @@ Day 99:		Extract insights from combining US census data and the Washington Post'
 Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we'll use regression models to try to predict salaries.
 
 Day 83:		Interactive Tic-Tac-Toe (Naughts and crosses). Uses Tkinter for imaging and window events. I found some stock images of 'X' and 'O'. I also found an unwinnable AI to implement, best user can get is a tie. I don't even have a winning .png
+
+Day 84:		image watermarking app using tkinter GUI to handle the file handling and Python Imaging Library (PIL) to handle the image processing.
