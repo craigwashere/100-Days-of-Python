@@ -109,3 +109,5 @@ Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we
 Day 83:		Interactive Tic-Tac-Toe (Naughts and crosses). Uses Tkinter for imaging and window events. I found some stock images of 'X' and 'O'. I also found an unwinnable AI to implement, best user can get is a tie. I don't even have a winning .png
 
 Day 84:		image watermarking app using tkinter GUI to handle the file handling and Python Imaging Library (PIL) to handle the image processing.
+
+Day 85:		A Tkinter GUI desktop application that tests your typing speed. I have a master list of words I downloaded from a reading practice website of various lenghts. A couple buttons to start/stop/reset the typing test. I use a separate thread to monitor typing times. When the length of word is matched or greater, the score is adjusted and a new word is retrieved. 
