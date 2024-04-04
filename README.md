@@ -117,3 +117,8 @@ Day 85:		A Tkinter GUI desktop application that tests your typing speed. I have 
 Day 86:		Using Python Turtle, build a clone of the 80s hit game Breakout. I tried to match the color scheme of the early 1980's Atari game. The game functions almost identically, however, it takes a while to load as there are over 50 turtles to draw including the ball and paddle.
 
 ![day 86](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_86/day_86.png)
+
+day 87:     Wifi-cafe app, again. Probably third time revisiting this idea. This time, in addition to Flask, Jinja, and WTForms, we store the cafe information in a SQLite database. 
+![Welcome page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_87/day_87-1.png)
+![Cafe List](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_87-2/day_87-2.png)
+![Edit Cafe](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_87-3/day_87-3.png)
