@@ -118,7 +118,14 @@ Day 86:		Using Python Turtle, build a clone of the 80s hit game Breakout. I trie
 
 ![day 86](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_86/day_86.png)
 
+
+
 day 87:     Wifi-cafe app, again. Probably third time revisiting this idea. This time, in addition to Flask, Jinja, and WTForms, we store the cafe information in a SQLite database. 
 ![Welcome page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_87/day_87-1.png)
 ![Cafe List](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_87-2/day_87-2.png)
 ![Edit Cafe](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_87-3/day_87-3.png)
+
+
+Day 88:		web-based to do list. online to do list, but the list isn't saved anywhere, probably could have implemented that with a file save or something. these webpages make use of bootstrap, flask, and jinja. fairly simple, but functional.
+
+![day 88](https://github.com/craigwashere/100-days-of-python/blob/main/day-88/day-88.png)
