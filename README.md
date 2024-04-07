@@ -131,4 +131,4 @@ Day 88:		web-based to do list. online to do list, but the list isn't saved anywh
 
 Day 89:		App where the text will disappear if user stops typing for 5 seconds. This uses TKinter for the GUI and text space. I found a scroll app implementation off geeksforgeeks.com. The keyDown event deletes the timer keyUp creates. 
 
-![most dangerous text editor](https://www.github.com/craigwashere/100-Days-of-Python/blob/main/day_89/day-89.png)
+![most dangerous text editor](https://www.github.com/craigwashere/100-Days-of-python/blob/main/day_89/day-89.png)
