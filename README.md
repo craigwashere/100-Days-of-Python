@@ -119,7 +119,6 @@ Day 86:		Using Python Turtle, build a clone of the 80s hit game Breakout. I trie
 ![day 86](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_86/day_86.png)
 
 
-
 day 87:     Wifi-cafe app, again. Probably third time revisiting this idea. This time, in addition to Flask, Jinja, and WTForms, we store the cafe information in a SQLite database. 
 ![Welcome page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_87/day_87-1.png)
 ![Cafe List](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_87/day_87-2.png)
@@ -129,3 +128,7 @@ day 87:     Wifi-cafe app, again. Probably third time revisiting this idea. This
 Day 88:		web-based to do list. online to do list, but the list isn't saved anywhere, probably could have implemented that with a file save or something. these webpages make use of bootstrap, flask, and jinja. fairly simple, but functional.
 
 ![day 88](https://github.com/craigwashere/100-days-of-python/blob/main/day_88/day-88.png)
+
+Day 89:		App where the text will disappear if user stops typing for 5 seconds. This uses TKinter for the GUI and text space. I found a scroll app implementation off geeksforgeeks.com. The keyDown event deletes the timer keyUp creates. 
+
+![most dangerous text editor](https://www.github.com/craigwashere/100-Days-of-Python/blob/main/day_89/day-89.png)
