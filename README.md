@@ -132,3 +132,10 @@ Day 88:		web-based to do list. online to do list, but the list isn't saved anywh
 Day 89:		App where the text will disappear if user stops typing for 5 seconds. This uses TKinter for the GUI and text space. I found a scroll app implementation off geeksforgeeks.com. The keyDown event deletes the timer keyUp creates. 
 
 ![most dangerous text editor](https://github.com/craigwashere/100-Days-of-python/blob/main/day_89/day-89.png)
+
+day 90:		python script to convert a .pdf file to an audio book. I found a webpage describing how to load .pdf files in python and merely needed to send text to Amazon's Polly to convert to speech. It's been a while, but I believe Amazon provided the polly.py code.
+
+for extra credit, Amazon also provided a website to convert text in a textarea to speech in various voices. I used pdf.js to convert the loaded .pdf to text, insert into the text area and send to polly.
+
+None of the voices returned have any inflections, or any variations in speech patterns as they're paid services at the time of the application implementation. 
+![image of webpage converting text to speech](https://github.com/craigwashere/100-Days-of-python/blob/main/day_90/day-90.png)
