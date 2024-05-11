@@ -127,7 +127,7 @@ day 87:     Wifi-cafe app, again. Probably third time revisiting this idea. This
 
 Day 88:		web-based to do list. online to do list, but the list isn't saved anywhere, probably could have implemented that with a file save or something. these webpages make use of bootstrap, flask, and jinja. fairly simple, but functional.
 
-![day 88]			(https://github.com/craigwashere/100-days-of-python/blob/main/day_88/day-88.png)
+![day 88](https://github.com/craigwashere/100-days-of-python/blob/main/day_88/day-88.png)
 
 Day 89:		App where the text will disappear if user stops typing for 5 seconds. This uses TKinter for the GUI and text space. I found a scroll app implementation off geeksforgeeks.com. The keyDown event deletes the timer keyUp creates. 
 
