@@ -1,0 +1,23 @@
+/* This CSS file will need to be added to the styling of 
+your web pages for the styles to be rendered. */
+
+a {
+    color: #ffc107;
+}
+
+body {
+    background-color: #333;
+    color: white;
+}
+
+form {
+    display: flex;
+}
+
+.colors {
+    border: 1px solid;
+}
+
+#filename {
+    margin: 0 0 20px 10px;
+}
