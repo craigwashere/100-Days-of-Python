@@ -142,3 +142,5 @@ None of the voices returned have any inflections, or any variations in speech pa
 
 day 91:		Day 91 is a webpage that gets the most common colors from an image and displays the RGBA values and a sample in a table. The image uploading is handled in via Javascript and passed to a Python backend. PIL handles most of the heavy lifting in terms of getting the colors, the values are passed back to the same webpage. (The filename gets erased on upload as default security.)
 ![image of color pallette generator](https://github.com/craigwashere/100-Days-of-python/blob/main/day_91/day-91.png)
+
+day 92:		 "a custom web scraper to collect data". I was considering moving to another city and wanted information on apartments, specifically, which apartments would accept my 2 dogs. This script uses beautifulSoup for interaction with the webpage and collection of price, rating, weight limit of the dogs, url, and a couple other items. After accumulating all this, writes to a .csv file locally.
