@@ -146,3 +146,7 @@ day 91:		Day 91 is a webpage that gets the most common colors from an image and 
 day 92:		 "a custom web scraper to collect data". I was considering moving to another city and wanted information on apartments, specifically, which apartments would accept my 2 dogs. This script uses beautifulSoup for interaction with the webpage and collection of price, rating, weight limit of the dogs, url, and a couple other items. After accumulating all this, writes to a .csv file locally.
 
 day 93:     Write Python code to play the Google Dinosaur Game. When google.com detects a device not connected to the internet, it displays a dinosaur game whose object is to vault cacti and rocks. This python script loads a faux page and automates playing the game. The main function forks two processes, one to get the pixels of a certain area of the screen, the other to check the pixels for a certain color. Most of the interface is handled through pyautogui. I had a little trouble getting the timing correct, apparently, it differs by system. This works for a few minutes at least.
+
+day 94:		Space Invaders. A remake of the 1978 video game. I borrowed a lot from the breakout game several weeks back, but implemented skins ("shapes") for the turtles to mimic the orginal game. also, game pieces explode in very rudimentary animation. Again, it takes a little while to render 50 turtles.
+![game play](https://github.com/craigwashere/100-Days-of-python/blob/main/day_94/day-94-1.png)
+![end game explosion](https://github.com/craigwashere/100-Days-of-python/blob/main/day_94/day-94-2.png)
