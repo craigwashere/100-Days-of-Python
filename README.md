@@ -100,6 +100,7 @@ Day 81:		Capstone project: building a model that can provide a price estimate ba
 /*----------------- This is the "Professional Portfolio" section where the prompts are self-graded -----------------*/
 
 /*----------------- I don't know if any of these are correct, I got answers and drew some plots -----------------*/
+
 day 98:		Use space mission data from 1957 onwards to analyse and visualise trends over time.
 
 Day 99:		Extract insights from combining US census data and the Washington Post's database on deaths by police in the United States.
@@ -137,10 +138,12 @@ day 90:		python script to convert a .pdf file to an audio book. I found a webpag
 
 for extra credit, Amazon also provided a website to convert text in a textarea to speech in various voices. I used pdf.js to convert the loaded .pdf to text, insert into the text area and send to polly.
 
-None of the voices returned have any inflections, or any variations in speech patterns as they're paid services at the time of the application implementation. 
+None of the voices returned have any inflections, or any variations in speech patterns as they're paid services at the time of the application implementation.
+
 ![image of webpage converting text to speech](https://github.com/craigwashere/100-Days-of-python/blob/main/day_90/day-90.png)
 
 day 91:		Day 91 is a webpage that gets the most common colors from an image and displays the RGBA values and a sample in a table. The image uploading is handled in via Javascript and passed to a Python backend. PIL handles most of the heavy lifting in terms of getting the colors, the values are passed back to the same webpage. (The filename gets erased on upload as default security.)
+
 ![image of color pallette generator](https://github.com/craigwashere/100-Days-of-python/blob/main/day_91/day-91.png)
 
 day 92:		 "a custom web scraper to collect data". I was considering moving to another city and wanted information on apartments, specifically, which apartments would accept my 2 dogs. This script uses beautifulSoup for interaction with the webpage and collection of price, rating, weight limit of the dogs, url, and a couple other items. After accumulating all this, writes to a .csv file locally.
@@ -148,9 +151,11 @@ day 92:		 "a custom web scraper to collect data". I was considering moving to an
 day 93:     Write Python code to play the Google Dinosaur Game. When google.com detects a device not connected to the internet, it displays a dinosaur game whose object is to vault cacti and rocks. This python script loads a faux page and automates playing the game. The main function forks two processes, one to get the pixels of a certain area of the screen, the other to check the pixels for a certain color. Most of the interface is handled through pyautogui. I had a little trouble getting the timing correct, apparently, it differs by system. This works for a few minutes at least.
 
 day 94:		Space Invaders. A remake of the 1978 video game. I borrowed a lot from the breakout game several weeks back, but implemented skins ("shapes") for the turtles to mimic the orginal game. also, game pieces explode in very rudimentary animation. Again, it takes a little while to render 50 turtles.
+
 ![game play](https://github.com/craigwashere/100-Days-of-python/blob/main/day_94/day-94-1.png)
 ![end game explosion](https://github.com/craigwashere/100-Days-of-python/blob/main/day_94/day-94-2.png)
 
 day 95:		a custom website using an interesting API. xkcd.com provides an API for their comics which includes the comic, comic titles,
 URLs, post dates, transcripts (when available), and other metadata. The Python script checks for valid response and passes the json data to the flask webpage. If the response was 404, set the id back to '1' and get the first comic. The webpage is fairly trivial, display the image, title, date, and a couple chevrons to navigate to the next/previous comic.
+
 ![day 95](https://github.com/craigwashere/100-Days-of-python/blob/main/day_95/day-95.png)
