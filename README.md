@@ -150,3 +150,7 @@ day 93:     Write Python code to play the Google Dinosaur Game. When google.com 
 day 94:		Space Invaders. A remake of the 1978 video game. I borrowed a lot from the breakout game several weeks back, but implemented skins ("shapes") for the turtles to mimic the orginal game. also, game pieces explode in very rudimentary animation. Again, it takes a little while to render 50 turtles.
 ![game play](https://github.com/craigwashere/100-Days-of-python/blob/main/day_94/day-94-1.png)
 ![end game explosion](https://github.com/craigwashere/100-Days-of-python/blob/main/day_94/day-94-2.png)
+
+day 95:		a custom website using an interesting API. xkcd.com provides an API for their comics which includes the comic, comic titles,
+URLs, post dates, transcripts (when available), and other metadata. The Python script checks for valid response and passes the json data to the flask webpage. If the response was 404, set the id back to '1' and get the first comic. The webpage is fairly trivial, display the image, title, date, and a couple chevrons to navigate to the next/previous comic.
+![day 95](https://github.com/craigwashere/100-Days-of-python/blob/main/day_95/day-95.png)
