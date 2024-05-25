@@ -148,6 +148,7 @@ day 92:		 "a custom web scraper to collect data". I was considering moving to an
 day 93:     Write Python code to play the Google Dinosaur Game. When google.com detects a device not connected to the internet, it displays a dinosaur game whose object is to vault cacti and rocks. This python script loads a faux page and automates playing the game. The main function forks two processes, one to get the pixels of a certain area of the screen, the other to check the pixels for a certain color. Most of the interface is handled through pyautogui. I had a little trouble getting the timing correct, apparently, it differs by system. This works for a few minutes at least.
 
 day 94:		Space Invaders. A remake of the 1978 video game. I borrowed a lot from the breakout game several weeks back, but implemented skins ("shapes") for the turtles to mimic the orginal game. also, game pieces explode in very rudimentary animation. Again, it takes a little while to render 50 turtles.
+
 ![game play](https://github.com/craigwashere/100-Days-of-python/blob/main/day_94/day-94-1.png)
 ![end game explosion](https://github.com/craigwashere/100-Days-of-python/blob/main/day_94/day-94-2.png)
 
