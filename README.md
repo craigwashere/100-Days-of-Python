@@ -1,7 +1,10 @@
 # 100 Days of Python
  Online course of 100 days creating Python apps
 
-Missing days are "interactive" through 'Coding Rooms' or 'Auditorium' unless otherwise specified
+> [!Note]
+> Missing days are "interactive" through 'Coding Rooms' or 'Auditorium' unless otherwise specified
+
+## Section 1
 Day 18:		day_18.py has to functions: create a random path and create a spirograph of random colors
 		hirst.py recreates Hirst dot painting with Turtle
 
@@ -78,7 +81,10 @@ Day 68      simple application to utilize Flask authorization. Registered users 
 
 Day 69:		culmination of 4 'days' of learning. The final website has several routes, user login validation and adminstration mode. Users can add posts and comment on other blogs. Again, utilizing WTForms, jinja, bootstrap, SQLAlchemy, and SQLite.
 
-/*-----------------This is the data science used on Google colab that I didn't enjoy at all-----------------*/
+## Section 2
+> [!Note]
+> This is the data science used on Google colab that I didn't enjoy at all
+
 Day 73:		beginning data science section investigating salaries based on college majors and simple plots with Pandas and MatPlotLib
 
 day 74:		Today we'll dive deep into a dataset all about LEGO. From the dataset we can ask whole bunch of interesting questions about the history of the LEGO company, their product offering, and which LEGO set ultimately rules them all.
@@ -97,15 +103,18 @@ Day 80:		This notebook examines data related to why so many women in maternity w
 
 Day 81:		Capstone project: building a model that can provide a price estimate based on a home's characteristics. We start off creating several bar charts with a Kernel Density Estimate overlay. We then run Seaborn's pairplot in attempt to visualise all the relationships at the same time. Then, we make several joinplots which is a scatterplot with bar graphs on the top and right side to look for correlations between distance from employment and NOX pollution, INDUS (the proportion of non-retail industry i.e., factories) with NOX (Nitric Oxide Pollution), proportion of lower-income population with RM (number of rooms), and proportion of lower-income population with price. We then get into multivariable regression models and draw some scatter plots. We then look at the residuals to verify they're random by using skew/mean and creating histogram with kernel Density Estimate overlay. finally, we predict a few house prices using the regression models.
 
-/*----------------- This is the "Professional Portfolio" section where the prompts are self-graded -----------------*/
+## Portfolio Section
+>[!Caution]
+> These prompts are self-graded
 
-/*----------------- I don't know if any of these are correct, I got answers and drew some plots -----------------*/
-
-day 98:		Use space mission data from 1957 onwards to analyse and visualise trends over time.
-
-Day 99:		Extract insights from combining US census data and the Washington Post's database on deaths by police in the United States.
-
-Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we'll use regression models to try to predict salaries.
+> [!Warning]
+> I don't know if any of these are correct, I got answers and drew some plots
+>
+> day 98:		Use space mission data from 1957 onwards to analyse and visualise trends over time.
+>
+> Day 99:		Extract insights from combining US census data and the Washington Post's database on deaths by police in the United States.
+>
+> Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we'll use regression models to try to predict salaries.
 
 Day 83:		Interactive Tic-Tac-Toe (Naughts and crosses). Uses Tkinter for imaging and window events. I found some stock images of 'X' and 'O'. I also found an unwinnable AI to implement, best user can get is a tie. I don't even have a winning .png
 
@@ -138,7 +147,7 @@ day 90:		python script to convert a .pdf file to an audio book. I found a webpag
 
 for extra credit, Amazon also provided a website to convert text in a textarea to speech in various voices. I used pdf.js to convert the loaded .pdf to text, insert into the text area and send to polly.
 
-None of the voices returned have any inflections, or any variations in speech patterns as they're paid services at the time of the application implementation.
+None of the voices returned have any inflections, or any variations in speech patterns as they're paid services at the time of the application implementation. 
 
 ![image of webpage converting text to speech](https://github.com/craigwashere/100-Days-of-python/blob/main/day_90/day-90.png)
 
@@ -157,5 +166,4 @@ day 94:		Space Invaders. A remake of the 1978 video game. I borrowed a lot from 
 
 day 95:		a custom website using an interesting API. xkcd.com provides an API for their comics which includes the comic, comic titles,
 URLs, post dates, transcripts (when available), and other metadata. The Python script checks for valid response and passes the json data to the flask webpage. If the response was 404, set the id back to '1' and get the first comic. The webpage is fairly trivial, display the image, title, date, and a couple chevrons to navigate to the next/previous comic.
-
 ![day 95](https://github.com/craigwashere/100-Days-of-python/blob/main/day_95/day-95.png)
