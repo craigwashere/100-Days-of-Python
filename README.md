@@ -5,7 +5,7 @@
 > Missing days are "interactive" through 'Coding Rooms' or 'Auditorium' unless otherwise specified
 
 ## Section 1
-=======
+
 This section is instructor led. Prompts are walked through.
 
 Day 18:		day_18.py has to functions: create a random path and create a spirograph of random colors
@@ -90,6 +90,7 @@ Day 57:		further expands on template development using Jinja by building a blog 
 Day 58:		crash course in HTML and css writing a fictional "tindog" web page. 
 
 Day 59:		blog webpage with templates with Flask/Jinja. Uses 'blogs' from dummy .json fetched from and API. 'Older Posts' don't exist.
+
 ![home page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_59/day-59-1.png)
 ![about page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_59/day-59-2.png)
 ![contact page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_59/day-59-3.png)
