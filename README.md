@@ -5,26 +5,47 @@
 > Missing days are "interactive" through 'Coding Rooms' or 'Auditorium' unless otherwise specified
 
 ## Section 1
+=======
+This section is instructor led. Prompts are walked through.
+
 Day 18:		day_18.py has to functions: create a random path and create a spirograph of random colors
 		hirst.py recreates Hirst dot painting with Turtle
 
-Day 19:		turtle race
+Day 19:		turtle race with Python Turtle. 6 turtles of different colors race across the screen at random rates. User can geuss which turtle will win in a tkinter messagebox, result will display in another tkinter messagebox.
 
-Day 20:		'snake' game with Python turtles
+![turtle race 1](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_19/day-19-1.png)
+![turtle race result](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_19/day-19-2.png)
+
+Day 20:		'snake' game with Python turtles. classic snake game make with python turtles. food randomly appears around the screen, snake length increases with each food. if snake goes off screen or gets too long, snake will reset to origin with length 3. Game ends when user closes window.
+
+![Snake game](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_20/day-20.png)
 
 Day 22:		Pong with Python turtles
 
-Day 23:		Frogger type game with Python turtles
+![Pong](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_22/day-22.png)
+
+Day 23:		Frogger type game with Python turtles. User can only travel in the up direction.
+
+![frogger-turtle](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_23/day-23.png)
 
 Day 24:		This is a template letter generator using one file for the names and another for the letter template. output files are stored in separate files according to names.
 
-Day 28:		This is a windowed application for work/break scheduling. It uses tkinter for the window API and displays a tomato for some reason.
+Day 28:		This is a windowed application for work/break scheduling. It uses tkinter for the window API and displays a tomato ('pomodoro' is Italian word for tomato). The Pomodoro Technique is a time management method based on 25-minute stretches of focused work broken by five-minute breaks. Longer breaks, typically 15 to 30 minutes, are taken after four consecutive work intervals. Each work interval is called a pomodoro.
+
+![Pomodoro timer](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_28/day-28.png)
 
 Day 29:		password generator with a tkinter GUI and saves with corresponding website and email address in a text file. Probably not the best way to store passwords, but for learning a Python GUI, fairly functional.
 
+![password generator](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_29/day-29.png)
+
 Day 31:		language learning app to learn vocabulary in a foreign language, French in this case. The words to learn are read from a .csv file using Pandas and displayed with tkinter GUI. The basic idea is to provide feedback as to which words were remembered correctly, the ones remembered correctly are removed from the master list and stored in a separate file when the app closes. When the app reopens, it looks for the words to learn file, if not found, loads the default list. Got some neat images for correct/incorrect.
 
+![vocabulary prompt](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_31/day-31-1.png)
+![vocabulary answer](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_31/day-31-2.png)
+
 day 34:		concludes the quiz program, but marks the first time using Python requests to retrieve data from a URL. While the application is a trivia game, it does demonstrate higher level software ideas including classes. Again, UI is handled through tkinter and mostly contained in the UI class.
+
+![quiz](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_34/day-34.png)
 
 day 35:		This app requests weather information from an online source and uses an email API to send and email to me regarding the weather. I hadn't setup an email client at the time of completing this.
 
@@ -38,11 +59,11 @@ Day 46:		script that prompts for a year then uses BeautifulSoup to query to get 
 
 Day 47:		simple script to check a price on InstantPot and send an email when the price drops below a certain value. It uses beautifulSoup to scrape the price and python's builtin smtplib library to send the email. I believe the idea was to have this run remotely and periodically until an email is received.
 
-Day 48:		this marks the beginning of web-based automation. Using selenium main.py gets upcoming events from python.org, interaction.py enters dummy values in a mock website created by the instructor. Selenium2.py is an inherited version of Selenium I used for the cookie automation that plays the cookie game on a website.
+Day 48:		this marks the beginning of web-based automation. Using selenium, main.py gets upcoming events from python.org, interaction.py enters dummy values in a mock website created by the instructor. Selenium2.py is an inherited version of Selenium I used for the cookie automation that plays the cookie game on a website.
 
 Day 49:		script to automatically apply for a job through linkedIn.com using selenium (in this case the inherited Selenium2 I created to handle some of the leg work).  Inside the Selenium2, as before, we make use of the geckodriver to run the we browser of choice (firefox).
 
-Day 50:		requires tinder and facebook, I subscribed to neither and don't want to bother.
+Day 50:		requires tinder and facebook, I am subscribed to neither and don't want to bother.
 
 Day 51:		automates a internet speed test through speedtest.net and posts the results on twitter. I don't have twitter and won't bother. Makes use of Selenium2.
 
@@ -50,17 +71,28 @@ Day 52:		required instagram, again, not going to bother.
 
 Day 53:		scrapes data from zillow.com and puts it into a premade Google form. (form has since been deleted). We scrape adress, price, and URL from zillow. Again, most projects using the inherited Selenium2
 
-Day 54:		intro to web development with Flask. 
+Day 54:		intro to web development with Flask. Simply prints 'Hello World in a web page.
 
-Day 55:		continutation of web development with backend development with a number guessing game.
+![intro flask webpage](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_54/day-54.png)
 
-Day 56:		starts with template web development in Flask, this is a resume web page.
+Day 55:		continutation of web development with backend development with a number guessing game. Guesses are entered in the URL and checked on the backend, results include a gif
 
-Day 57:		further expands on template development using Jinja by building a blog page.
+![intro flask webpage](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_55/day-55.png)
+
+Day 56:		starts with template web development in Flask, this is a resume web page. As this section is follow-along, the webpage is the instructor's.
+
+Day 57:		further expands on template development using Jinja by building a blog page. Blog fetches dummy json data from an API. Also includes an interface, /guess/<name>, and the output is gender and approximate age. Answers are retreived from agify API. The 'capstone' for this day is a blog server with .css formatting.
+
+![landing page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_57/day-57-1.png)
+![blog page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_57/day-57-2.png)
+![guess page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_57/day-57-3.png)
 
 Day 58:		crash course in HTML and css writing a fictional "tindog" web page. 
 
-Day 59:		blog webpage with templates with Flask/Jinja. 
+Day 59:		blog webpage with templates with Flask/Jinja. Uses 'blogs' from dummy .json fetched from and API. 'Older Posts' don't exist.
+![home page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_59/day-59-1.png)
+![about page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_59/day-59-2.png)
+![contact page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_59/day-59-3.png)
 
 Day 60:		login for the blog page using forms. 
 
@@ -107,6 +139,15 @@ Day 81:		Capstone project: building a model that can provide a price estimate ba
 >[!Caution]
 > These prompts are self-graded
 
+<<<<<<< HEAD
+/*----------------- I don't know if any of these are correct, I got answers and drew some plots -----------------*/
+
+day 98:		Use space mission data from 1957 onwards to analyse and visualise trends over time.
+
+Day 99:		Extract insights from combining US census data and the Washington Post's database on deaths by police in the United States.
+
+Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we'll use regression models to try to predict salaries.
+=======
 > [!Warning]
 > I don't know if any of these are correct, I got answers and drew some plots
 >
@@ -115,6 +156,7 @@ Day 81:		Capstone project: building a model that can provide a price estimate ba
 > Day 99:		Extract insights from combining US census data and the Washington Post's database on deaths by police in the United States.
 >
 > Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we'll use regression models to try to predict salaries.
+>>>>>>> d9cd78f19f1c2d8e26e6730e7c27afdf0988d8e0
 
 Day 83:		Interactive Tic-Tac-Toe (Naughts and crosses). Uses Tkinter for imaging and window events. I found some stock images of 'X' and 'O'. I also found an unwinnable AI to implement, best user can get is a tie. I don't even have a winning .png
 
@@ -147,7 +189,11 @@ day 90:		python script to convert a .pdf file to an audio book. I found a webpag
 
 for extra credit, Amazon also provided a website to convert text in a textarea to speech in various voices. I used pdf.js to convert the loaded .pdf to text, insert into the text area and send to polly.
 
+<<<<<<< HEAD
+None of the voices returned have any inflections, or any variations in speech patterns as they're paid services at the time of the application implementation.
+=======
 None of the voices returned have any inflections, or any variations in speech patterns as they're paid services at the time of the application implementation. 
+>>>>>>> d9cd78f19f1c2d8e26e6730e7c27afdf0988d8e0
 
 ![image of webpage converting text to speech](https://github.com/craigwashere/100-Days-of-python/blob/main/day_90/day-90.png)
 
@@ -166,4 +212,5 @@ day 94:		Space Invaders. A remake of the 1978 video game. I borrowed a lot from 
 
 day 95:		a custom website using an interesting API. xkcd.com provides an API for their comics which includes the comic, comic titles,
 URLs, post dates, transcripts (when available), and other metadata. The Python script checks for valid response and passes the json data to the flask webpage. If the response was 404, set the id back to '1' and get the first comic. The webpage is fairly trivial, display the image, title, date, and a couple chevrons to navigate to the next/previous comic.
+
 ![day 95](https://github.com/craigwashere/100-Days-of-python/blob/main/day_95/day-95.png)

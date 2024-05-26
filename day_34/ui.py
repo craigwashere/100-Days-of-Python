@@ -40,19 +40,19 @@ class QuizInterface:
         
     def get_next_question(self):
         self.question_canvas.config(bg="white")
-        if self.quiz.still_has_questions:
+        if self.quiz.still_has_questions():
             self.question_canvas.itemconfig(self.question_label, 
                 text=self.quiz.next_question())
         else:
-            self.canvas.itemconfig(self.question_label, text="End of Quiz")
+            self.question_canvas.itemconfig(self.question_label, text=f"End of Quiz\nYour final score was: {self.quiz.score}/{self.quiz.question_number}")
             self.true_button.config(state="disabled")
             self.false_button.config(state="disabled")
             
-    def give_feedback(self,is_right):
-        if is_right:
-            color = "green"
+    def give_feedback(self, is_right):
+        if is_right == True:
+            color = 'green'
         else:
-            color = "red"
+            color = 'red'
         self.question_canvas.config(bg=color)
         self.window.after(1000, self.get_next_question)
     
@@ -64,12 +64,10 @@ class QuizInterface:
         self.give_feedback(is_correct)
         if is_correct:
             self.draw_score()
-        self.get_next_question()
             
     def check_answer_false(self):
         is_correct = self.quiz.check_answer("False")
         self.give_feedback(is_correct)
         if is_correct:
             self.draw_score()
-        self.get_next_question()
         
