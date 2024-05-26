@@ -140,15 +140,6 @@ Day 81:		Capstone project: building a model that can provide a price estimate ba
 >[!Caution]
 > These prompts are self-graded
 
-<<<<<<< HEAD
-/*----------------- I don't know if any of these are correct, I got answers and drew some plots -----------------*/
-
-day 98:		Use space mission data from 1957 onwards to analyse and visualise trends over time.
-
-Day 99:		Extract insights from combining US census data and the Washington Post's database on deaths by police in the United States.
-
-Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we'll use regression models to try to predict salaries.
-=======
 > [!Warning]
 > I don't know if any of these are correct, I got answers and drew some plots
 >
@@ -157,7 +148,6 @@ Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we
 > Day 99:		Extract insights from combining US census data and the Washington Post's database on deaths by police in the United States.
 >
 > Day 100:	Using data from the National Longitudinal Survey of Youth 1997-2011, we'll use regression models to try to predict salaries.
->>>>>>> d9cd78f19f1c2d8e26e6730e7c27afdf0988d8e0
 
 Day 83:		Interactive Tic-Tac-Toe (Naughts and crosses). Uses Tkinter for imaging and window events. I found some stock images of 'X' and 'O'. I also found an unwinnable AI to implement, best user can get is a tie. I don't even have a winning .png
 
@@ -190,11 +180,7 @@ day 90:		python script to convert a .pdf file to an audio book. I found a webpag
 
 for extra credit, Amazon also provided a website to convert text in a textarea to speech in various voices. I used pdf.js to convert the loaded .pdf to text, insert into the text area and send to polly.
 
-<<<<<<< HEAD
-None of the voices returned have any inflections, or any variations in speech patterns as they're paid services at the time of the application implementation.
-=======
 None of the voices returned have any inflections, or any variations in speech patterns as they're paid services at the time of the application implementation. 
->>>>>>> d9cd78f19f1c2d8e26e6730e7c27afdf0988d8e0
 
 ![image of webpage converting text to speech](https://github.com/craigwashere/100-Days-of-python/blob/main/day_90/day-90.png)
 
