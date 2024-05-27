@@ -95,22 +95,46 @@ Day 59:		blog webpage with templates with Flask/Jinja. Uses 'blogs' from dummy .
 ![about page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_59/day-59-2.png)
 ![contact page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_59/day-59-3.png)
 
-Day 60:		login for the blog page using forms. 
+Day 60:		login for the blog page using forms. There is no authentication, the following page display username and password entered.
 
-Day 61:		login form example with validation, displays separate pages for successful vs. unsuccessful login.
+![login page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_60/day-60-1.png)
+![second page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_60/day-60-2.png)
+ 
+Day 61:		login form example with validation, displays separate pages for successful vs. unsuccessful login.  Basically, the same webpage application as the previous day, but with Bootstrap styling and trivial authentication. All information is passed through as plain text.
 
-Day 62:		a cafe blog type web  application that lists cafes and their rating with respect to power connections. it uses Flask, WTForms, and Jinja. It also writes the cafes to a .csv file for retrieval on next opening.
+Day 62:		a cafe blog type web  application that lists cafes and their rating with respect to power connections. it uses Flask, WTForms, and Jinja. It also writes the cafes to a .csv file for retrieval on next opening. If the user knows the correct URL ('/add'), they can add cafe.
+
+![home page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_62/day-62-1.png)
+![about page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_62/day-62-2.png)
+![contact page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_62/day-62-3.png)
 
 Day 63:		book cataloging web page to add books with rating. User can edit rating, but not the book entries. User can add/delete books. No .css styling. Book entries are added to a SQLite database. Again uses jinja forms for page population.
 
-Day 64:		blog for Top 10 Movies. Backend uses SQLAlchemy to communicate to a SQLite database to store the movies and ratings. The front end uses WTForms, Flask, Jinja templates, and bootstrap. One of the bootstrap components is the carousel to display movie poster of selected movies and ratings. Also uses the tmdb API to get the  URL for the movie poster and other data.
+![home page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_63/day-63-1.png)
+![edit rating page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_63/day-63-2.png)
+![add book page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_63/day-63-3.png)
+
+Day 64:		blog for Top 10 Movies. Backend uses SQLAlchemy to communicate to a SQLite database to store the movies and ratings. The front end uses WTForms, Flask, Jinja templates, and bootstrap. One of the bootstrap components is the carousel to display movie poster of selected movies and ratings. Also uses the tmdb API to get the  URL for the movie poster and other data. Clicking a title in the selection page adds it to the database and redirects to edit rating page.
+
+![home page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_64/day-64-1.png)
+![card back](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_64/day-64-2.png)
+![add movie page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_64/day-64-3.png)
+![select movie page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_64/day-64-4.png)
+![edit movie page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_64/day-64-5.png)
 
 Day 65:		cafe blog, but in API form. The only html template simply shows a welcome page, however, we have end points for updating coffee prices, deleting a cafe, adding a cafe, searching for a cafe, fetching all the cafes, and fetching a random cafe. Data returned is .json and includes several fields.
 
-Day 66:     	blog server to display, add, edit, delete blogs. A lot of the front end was already created in terms of .css and javascript. Nevertheless, this project uses flask, wtforms, sqlalchemy, and ckeditor. We CRUD the sqlite database through sqlalchemy. The front end has a text editor field through CKEditor. Routes through the Python main file render templates with WTForms.
+Day 66:     Extension of 'day' 59 blog server with the addition to add, edit, and delete blogs. A lot of the front end was already created in terms of .css and javascript. Nevertheless, this project uses flask, wtforms, sqlalchemy, and ckeditor. We CRUD the sqlite database through sqlalchemy. The front end has a text editor field through CKEditor. Routes through the Python main file render templates with WTForms.
 
-Day 68      simple application to utilize Flask authorization. Registered users are kept in a sqlite database, templates are rendered with default .css and wtforms.
+![home page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_66/day-66-1.png)
+![view post back](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_66/day-66-2.png)
+![edit post page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_66/day-66-3.png)
 
+Day 68      simple application to utilize Flask authorization. Registered users are kept in a sqlite database, templates are rendered with default .css and wtforms. Passwords are hashed and not transmitted as plain text.
+
+![home page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_68/day-68-1.png)
+![view post back](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_68/day-68-2.png)
+![edit post page](https://github.com/craigwashere/100-Days-of-Python/blob/main/day_68/day-68-3.png)
 
 Day 69:		culmination of 4 'days' of learning. The final website has several routes, user login validation and adminstration mode. Users can add posts and comment on other blogs. Again, utilizing WTForms, jinja, bootstrap, SQLAlchemy, and SQLite.
 

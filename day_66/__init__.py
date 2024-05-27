@@ -41,7 +41,7 @@ class CreatePostForm(FlaskForm):
     img_url = StringField("Blog Image URL", validators=[DataRequired(), URL()])
     body = CKEditorField("Blog Content", validators=[DataRequired()])
     submit = SubmitField("Submit Post")
-
+    cancel = SubmitField(label='Cancel', render_kw={'formnovalidate': True})
 
 @app.route("/delete_post/<int:index>")
 def delete_post(index):
@@ -53,6 +53,8 @@ def delete_post(index):
 @app.route("/new-post", methods=['GET','POST'])
 def new_post():
     form = CreatePostForm()
+    if form.cancel.data:  # if cancel button is clicked, the form.cancel.data will be True
+        return redirect(url_for('get_all_posts'))
     if form.validate_on_submit():
         new_post = BlogPost(
             title = form.title.data,
@@ -87,6 +89,8 @@ def edit_post(post_id):
         author=post.author,
         body=post.body
     )
+    if edit_form.cancel.data:  # if cancel button is clicked, the form.cancel.data will be True
+        return redirect(url_for('get_all_posts'))
     if edit_form.validate_on_submit():
         post.title = edit_form.title.data
         post.subtitle = edit_form.subtitle.data

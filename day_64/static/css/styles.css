@@ -16,6 +16,11 @@
 	 background-attachment: fixed;
 }
 
+img {
+  max-width: 25%;
+  height: auto;
+}
+
 input {
     margin-bottom; 10px;
 }

@@ -98,7 +98,6 @@ def add_cafe():
 
 @app.route('/cafes', methods=['GET', 'POST'])
 def cafes():
-    print("craig was here")
     with open(data_file, newline='', encoding="utf8") as csv_file:
         csv_data = csv.reader(csv_file, delimiter=',')
         list_of_rows = []
@@ -109,8 +108,6 @@ def cafes():
 @app.route("/")
 def home():
     return render_template("index.html")
-
-print("__name__", __name__)
 
 if __name__ == '__main__':
     print("main")

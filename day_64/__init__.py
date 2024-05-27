@@ -6,9 +6,10 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
 
-from .rateMovie import RateMovieForm
-from .addMovie import addMovieForm
-from .tmdb import TMDB
+# prepend '.' for module deployment
+from rateMovie import RateMovieForm
+from addMovie import addMovieForm
+from tmdb import TMDB
 import os
 
 app = Flask(__name__)
@@ -59,9 +60,11 @@ def delete():
 def edit():
     form = RateMovieForm()
     print("id", request.args.get('id'))
+    if form.cancel.data:  # if cancel button is clicked, the form.cancel.data will be True
+        return redirect(url_for('home'))
     movie_to_edit = Movies.query.get(request.args.get('id'))
     if form.validate_on_submit():
-        movie_to_edit.rating = form.rating.data
+        movie_to_edit.rating = form.rating.data if form.rating.data != '' else 0.0
         movie_to_edit.review = form.review.data
         db.session.commit()
         return redirect(url_for('home'))
@@ -89,6 +92,8 @@ def select():
 @app.route('/add', methods=['GET', 'POST'])
 def add():
     form = addMovieForm()
+    if form.cancel.data:  # if cancel button is clicked, the form.cancel.data will be True
+        return redirect(url_for('home'))    
     if form.validate_on_submit():
         tmdb = TMDB()
         return render_template('select.html', movies=tmdb.search_movie(form.title.data))
